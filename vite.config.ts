@@ -5,6 +5,7 @@ import vue from '@vitejs/plugin-vue'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  base: '/b-math-practice/',
   plugins: [
     vue(),
     VitePWA({
@@ -18,11 +19,11 @@ export default defineConfig({
         background_color: '#1e40af',
         display: 'standalone',
         orientation: 'portrait',
-        scope: '/',
-        start_url: '/',
+        scope: '/b-math-practice/',
+        start_url: '/b-math-practice/',
         icons: [
           {
-            src: '/icon.svg',
+            src: '/b-math-practice/icon.svg',
             sizes: 'any',
             type: 'image/svg+xml',
             purpose: 'any maskable',
