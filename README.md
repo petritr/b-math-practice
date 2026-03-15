@@ -2,6 +2,17 @@
 
 A Vue 3 Progressive Web App (PWA) designed for first-grade primary school children to practice basic addition and subtraction (results 0–20). Kids answer 10 quick-fire questions per round and try to beat their personal best time with a perfect score.
 
+**[Live Demo](https://petritr.github.io/b-math-practice/)**
+
+## Screenshots
+
+<!-- Replace these placeholders once you add images to docs/ -->
+<p align="center">
+  <img src="./docs/start.png" alt="Start screen" width="250" />
+  <img src="./docs/question.png" alt="Question screen" width="250" />
+  <img src="./docs/result.png" alt="Result screen" width="250" />
+</p>
+
 ## Features
 
 - Addition and subtraction with answers in the 0–20 range
@@ -44,3 +55,7 @@ npm run build
 npm run lint
 npm run format
 ```
+
+## License
+
+MIT
