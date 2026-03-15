@@ -1,0 +1,27 @@
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f2862"/>
+      <stop offset="50%" style="stop-color:#1e40af"/>
+      <stop offset="100%" style="stop-color:#38bdf8"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#bg)"/>
+  <!-- Subtle inner border -->
+  <rect x="12" y="12" width="488" height="488" rx="98" fill="none" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
+  <!-- Bold B letter -->
+  <text x="256" y="360" font-family="Arial, Helvetica, sans-serif" font-size="340" font-weight="900"
+        fill="white" text-anchor="middle" dominant-baseline="auto" filter="url(#glow)">B</text>
+  <!-- Small decorative math symbols -->
+  <text x="410" y="115" font-family="Arial, sans-serif" font-size="48" font-weight="700"
+        fill="white" fill-opacity="0.25" text-anchor="middle">+</text>
+  <text x="95" y="440" font-family="Arial, sans-serif" font-size="42" font-weight="700"
+        fill="white" fill-opacity="0.2" text-anchor="middle">=</text>
+</svg>
